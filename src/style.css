@@ -1,8 +1,11 @@
 body{
+    display: flex;
+    justify-content: center;
     font-family: roboto, sans-serif;
-    background-color: rgb(95, 88, 88);
+    background-color: black;
     color: white;
     border: none;
+    padding:0 60px;
 }
 
 
@@ -13,7 +16,7 @@ body{
     align-items: center;
     flex: 1;
     padding: 4px 50px;
-    
+    background-color: rgb(146, 177, 177);
 }
 
 .logo{
@@ -49,9 +52,14 @@ a{
 
 .row2{
     display: flex;
-    justify-content: space-between;
-    padding: 20px 50px;
-    gap: 40px;
+    justify-content: center;
+    padding: 20px 100px;
+    gap: 10px;
+    background-color: rgb(146, 177, 177);
+}
+
+.info{
+    padding:15px 100px;
 }
 
 h1{
@@ -66,7 +74,7 @@ p{
     display: flex;
     align-items: center;
     background-color: lightgray;
-    padding:15px 20px;
+    padding:15px 100px;
 }
 
 .btn{
@@ -117,9 +125,14 @@ li{
     background-color: rgb(89, 110, 110);
 }
 
+.row4 > p{
+    padding:20px 300px;
+}
+
 .quote{
     text-align:right;
     font-size: 10px;
+    padding:20px 300px;
 }
 
 .row5{
@@ -129,8 +142,9 @@ li{
 .bd{
     display: flex;
     justify-content: space-between;
-    padding: 20px 50px;
+    padding: 20px 200px;
     background-color: blue;
+    
     border: none;
     border-radius: 8px;
 }
@@ -159,4 +173,5 @@ li{
     display: flex;
     justify-content: center;
     padding: 5px 10px;
+    background-color: rgb(146, 177, 177);
 }
