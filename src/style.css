@@ -121,3 +121,36 @@ li{
     text-align:right;
     font-size: 10px;
 }
+
+.row5{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    background-color: blue;
+}
+
+.action > h1{
+    font-size: 10px;
+}
+
+.action > p{
+    font-size: 8px;
+}
+
+.btn1{
+    border: white solid 1px;
+    font-size: 10px;
+    cursor: pointer;
+    background-color: blue;
+    border-radius: 4px;
+    color: white;
+}
+.btn1:hover{
+    background-color: rgb(26, 199, 199, 0.5);
+}
+
+.row6{
+    display: flex;
+    justify-content: center;
+    padding: 5px 10px;
+}
