@@ -4,10 +4,7 @@ body{
     color: white;
 }
 
-.flex-container{
-    display: flex;
-    
-}
+
 
 .row1{
     display: flex;
@@ -47,4 +44,37 @@ ul{
 a{
     text-decoration: none;
     color: inherit;
+}
+
+.row2{
+    display: flex;
+    justify-content: space-between;
+    padding: 4px 50px;
+    gap: 40px;
+}
+
+.info > h1{
+    font-size: 20px;
+}
+
+p{
+    font-size: 10px;
+}
+
+.placeholder{
+    display: flex;
+    align-items: center;
+    background-color: lightgray;
+    padding:15px 20px;
+}
+
+.btn{
+    border: none;
+    background-color: rgb(66, 231, 231);
+    border-radius: 4px;
+    cursor: pointer;
+    color:antiquewhite;
+}
+.btn:hover{
+    background-color: rgb(66, 231, 231, 0.5);
 }
