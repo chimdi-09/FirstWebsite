@@ -2,6 +2,7 @@ body{
     font-family: roboto, sans-serif;
     background-color: rgb(95, 88, 88);
     color: white;
+    border: none;
 }
 
 
@@ -49,11 +50,11 @@ a{
 .row2{
     display: flex;
     justify-content: space-between;
-    padding: 4px 50px;
+    padding: 20px 50px;
     gap: 40px;
 }
 
-.info > h1{
+h1{
     font-size: 20px;
 }
 
@@ -77,4 +78,46 @@ p{
 }
 .btn:hover{
     background-color: rgb(66, 231, 231, 0.5);
+}
+
+.row3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    color: black;
+    padding: 20px 50px;
+}
+
+.row3 > h1{
+    text-align: center;
+    padding: 10px;
+}
+
+.images{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+li{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+    align-items: center;
+    gap: 10px;
+}
+
+.row4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px 50px;
+    background-color: rgb(89, 110, 110);
+}
+
+.quote{
+    text-align:right;
+    font-size: 10px;
 }
