@@ -1,0 +1,50 @@
+body{
+    font-family: roboto, sans-serif;
+    background-color: rgb(95, 88, 88);
+    color: white;
+}
+
+.flex-container{
+    display: flex;
+    
+}
+
+.row1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+    padding: 4px 50px;
+    
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+img{
+    height: 50px;
+}
+
+p{
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+}
+
+.tabs{
+    display: flex;
+    gap: 10px;
+}
+
+ul{
+    list-style: none;
+    font-size: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
