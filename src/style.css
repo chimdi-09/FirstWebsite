@@ -123,10 +123,15 @@ li{
 }
 
 .row5{
+    border:white solid 40px;
+}
+
+.bd{
     display: flex;
     justify-content: space-between;
     padding: 20px 50px;
     background-color: blue;
+    border-radius: 4px;
 }
 
 .action > h1{
