@@ -131,7 +131,8 @@ li{
     justify-content: space-between;
     padding: 20px 50px;
     background-color: blue;
-    border-radius: 4px;
+    border: none;
+    border-radius: 8px;
 }
 
 .action > h1{
